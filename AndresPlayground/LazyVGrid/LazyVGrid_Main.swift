@@ -10,7 +10,7 @@ import SwiftUI
 struct LazyVGrid_Main: View {
     let columns = [
       GridItem(.fixed(50)),
-      GridItem(.fixed(50)),
+      GridItem(.fixed(50), spacing: 20),
       GridItem(.fixed(50))
     ]
   
@@ -20,7 +20,7 @@ struct LazyVGrid_Main: View {
           ForEach(0..<100) { i in
             Text("Item \(i)")
               .frame(maxWidth: .infinity, maxHeight: .infinity)
-              .background(.yellow)
+              .background(.yellow.gradient)
           }
         }
       }
