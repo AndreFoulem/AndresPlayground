@@ -10,7 +10,7 @@ import SwiftUI
 struct LazyVGrid_Main: View {
     let columns = [
       GridItem(.adaptive(minimum: 100)),
-//      GridItem(.fixed(50), spacing: 20),
+      GridItem(.fixed(50), spacing: 20),
 //      GridItem(.flexible(minimum: 30))
     ]
   
