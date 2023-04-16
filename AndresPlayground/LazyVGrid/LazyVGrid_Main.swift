@@ -8,20 +8,20 @@
 import SwiftUI
 
 struct LazyVGrid_Main: View {
-    let columns = [
-      GridItem(.fixed(80)),
-      GridItem(.fixed(100), alignment: .trailing)
-//      GridItem(.flexible(minimum: 30))
+    let rows = [
+      GridItem(.fixed(100)),
+      GridItem(.adaptive(minimum: 50))
     ]
   
     var body: some View {
-      ScrollView {
-        LazyVGrid(columns: columns) {
+      ScrollView(.horizontal) {
+        LazyHGrid(rows: rows) {
           ForEach(0..<100) { i in
             
             Text("Item \(i)")
-              .background(.yellow.gradient)
-            
+              .frame(minWidth: 50, maxHeight: .infinity)
+            //maxHeight infinity lets the room for the GridItem to set the fixed height then adapt for remaining cells
+              .background(.yellow)
           }
         }
       }
