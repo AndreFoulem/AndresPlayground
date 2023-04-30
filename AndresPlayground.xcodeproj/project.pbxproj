@@ -19,6 +19,7 @@
 		9015D8D829EB460A007D6F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9015D8DB29EB460A007D6F62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9015D8E329EB4625007D6F62 /* LazyVGrid_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_Main.swift; sourceTree = "<group>"; };
+		90AEA73129FF1D170093163F /* test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 		90AEA73029FF17C50093163F /* Codable */ = {
 			isa = PBXGroup;
 			children = (
+				90AEA73129FF1D170093163F /* test.geojson */,
 			);
 			path = Codable;
 			sourceTree = "<group>";
