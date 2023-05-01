@@ -11,6 +11,7 @@
 		9015D8D929EB460A007D6F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9015D8D829EB460A007D6F62 /* Assets.xcassets */; };
 		9015D8DC29EB460A007D6F62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9015D8DB29EB460A007D6F62 /* Preview Assets.xcassets */; };
 		9015D8E429EB4625007D6F62 /* LazyVGrid_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015D8E329EB4625007D6F62 /* LazyVGrid_Main.swift */; };
+		90AEA7342A0051790093163F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA7332A0051790093163F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9015D8DB29EB460A007D6F62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9015D8E329EB4625007D6F62 /* LazyVGrid_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_Main.swift; sourceTree = "<group>"; };
 		90AEA73129FF1D170093163F /* test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.geojson; sourceTree = "<group>"; };
+		90AEA7332A0051790093163F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		90AEA7322A004E6C0093163F /* Fun  Lists */ = {
 			isa = PBXGroup;
 			children = (
+				90AEA7332A0051790093163F /* SettingsView.swift */,
 			);
 			path = "Fun  Lists";
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AEA7342A0051790093163F /* SettingsView.swift in Sources */,
 				9015D8E429EB4625007D6F62 /* LazyVGrid_Main.swift in Sources */,
 				9015D8D529EB4609007D6F62 /* AndresPlaygroundApp.swift in Sources */,
 			);
