@@ -21,8 +21,15 @@ struct SettingsView: View {
   @State private var appearance: AppearanceStyle = .auto
   
   var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+      List {
+        Section {
+          TextField("Username", text: $username)
+          Toggle(isOn: $isPrivate) {
+            Text("Private Account")
+          }
+        } header: { Text("Profile") }
+      }
+  }
 }
 
 struct SettingsView_Previews: PreviewProvider {
