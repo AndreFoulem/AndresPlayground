@@ -21,6 +21,7 @@ struct SettingsView: View {
   @State private var appearance: AppearanceStyle = .auto
   
   var body: some View {
+    // default list style = InsetGroupedStyleView
       List {
         Section {
           TextField("Username", text: $username)
@@ -28,6 +29,12 @@ struct SettingsView: View {
             Text("Private Account")
           }
         } header: { Text("Profile") }
+        
+        Section {
+          Slider(value: $fontSize, in: 1...10) {
+          Label("Default Font Size", systemImage: "text.magnigyingglass")
+          }
+        }
       }
   }
 }
