@@ -34,6 +34,16 @@ struct SettingsView: View {
           Slider(value: $fontSize, in: 1...10) {
           Label("Default Font Size", systemImage: "text.magnigyingglass")
           }
+          
+          Picker("Appearance", selection: $appearance) {
+            Text("Dark").tag(AppearanceStyle.dark)
+            Text("Light").tag(AppearanceStyle.light)
+            Text("Auto").tag(AppearanceStyle.auto)
+          }
+        }
+        
+        Section {
+          
         }
       }
   }
