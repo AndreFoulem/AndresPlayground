@@ -21,7 +21,7 @@ struct SettingsView: View {
   @State private var appearance: AppearanceStyle = .auto
   
   var body: some View {
-    // default list style = InsetGroupedStyleView
+
       List {
         Section {
           TextField("Username", text: $username)
