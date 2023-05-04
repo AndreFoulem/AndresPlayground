@@ -43,9 +43,14 @@ struct SettingsView: View {
         }
         
         Section {
-          
-        }
-      }
+          HStack {
+            Text("Version")
+            Spacer()
+            Text("2.2.1")
+          }
+        } header: { Text("About") }
+        
+      }//list
   }
 }
 
