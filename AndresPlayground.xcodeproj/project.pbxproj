@@ -11,6 +11,8 @@
 		9015D8D929EB460A007D6F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9015D8D829EB460A007D6F62 /* Assets.xcassets */; };
 		9015D8DC29EB460A007D6F62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9015D8DB29EB460A007D6F62 /* Preview Assets.xcassets */; };
 		9015D8E429EB4625007D6F62 /* LazyVGrid_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015D8E329EB4625007D6F62 /* LazyVGrid_Main.swift */; };
+		902465502A04387F00D523EE /* SettingsFormScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024654F2A04387F00D523EE /* SettingsFormScreen.swift */; };
+		902465532A043C1800D523EE /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465522A043C1800D523EE /* Food.swift */; };
 		90AEA7342A0051790093163F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA7332A0051790093163F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +22,8 @@
 		9015D8D829EB460A007D6F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9015D8DB29EB460A007D6F62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9015D8E329EB4625007D6F62 /* LazyVGrid_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_Main.swift; sourceTree = "<group>"; };
+		9024654F2A04387F00D523EE /* SettingsFormScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFormScreen.swift; sourceTree = "<group>"; };
+		902465522A043C1800D523EE /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		90AEA73129FF1D170093163F /* test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.geojson; sourceTree = "<group>"; };
 		90AEA7332A0051790093163F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +85,14 @@
 			path = LazyVGrid;
 			sourceTree = "<group>";
 		};
+		902465512A043C0C00D523EE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				902465522A043C1800D523EE /* Food.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		90568C1C29F20FB70095EB4D /* PaulMoonshot */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				90AEA7332A0051790093163F /* SettingsView.swift */,
+				902465512A043C0C00D523EE /* Data */,
+				9024654F2A04387F00D523EE /* SettingsFormScreen.swift */,
 			);
 			path = "Fun  Lists";
 			sourceTree = "<group>";
@@ -174,7 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902465502A04387F00D523EE /* SettingsFormScreen.swift in Sources */,
 				90AEA7342A0051790093163F /* SettingsView.swift in Sources */,
+				902465532A043C1800D523EE /* Food.swift in Sources */,
 				9015D8E429EB4625007D6F62 /* LazyVGrid_Main.swift in Sources */,
 				9015D8D529EB4609007D6F62 /* AndresPlaygroundApp.swift in Sources */,
 			);
