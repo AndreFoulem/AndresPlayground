@@ -18,7 +18,7 @@ struct ComplexListView: View {
           FoodCustomCell(food: food)
         }
         
-        Text("")
+        Text("___")
         
         ForEach(unhealthFoods) { food in
           FoodCustomCell(food: food)
