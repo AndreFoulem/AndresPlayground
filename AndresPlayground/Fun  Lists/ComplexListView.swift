@@ -18,18 +18,21 @@ struct ComplexListView: View {
           ForEach(foods) { food in
             FoodCustomCell(food: food)
           }
+          .listRowInsets(.init(top:80 , leading: 10, bottom: 0, trailing: 20))
         } header: {
           Text("healthy")
         }
         .headerProminence(.increased)
-        
+    
         Section {
-          DisclosureGroup("unhealthy") {
             ForEach(unhealthFoods) { food in
               FoodCustomCell(food: food)
+                .listRowBackground(food.isFavorite ? Color.green : Color.pink)
             }
-          }
-        } 
+            .listRowSeparatorTint(.white)
+        } header: {
+          Text("unhealthy food")
+        }
         
         Button {
           let newFood = Food(name: "new", icon: "\(foods.count)", isFavorite: false)
@@ -41,6 +44,10 @@ struct ComplexListView: View {
           Label("Add", systemImage: "plus")
         }
       }
+      .scrollContentBackground(.hidden)
+      .background(Color.mint)
+      .environment(\.defaultMinListHeaderHeight, 400)
+
       
     }
 }
@@ -60,5 +67,8 @@ struct FoodCustomCell: View {
 struct ComplexListView_Previews: PreviewProvider {
     static var previews: some View {
         ComplexListView()
+        .listStyle(.grouped)
+      //watchOS - tvOS 13+, tvOS 13+
+        .previewDisplayName("Inset")
     }
 }
