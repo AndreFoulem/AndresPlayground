@@ -10,6 +10,7 @@ import Foundation
 struct Food: Identifiable {
   var name: String
   var icon: String
+  
   var isFavorite: Bool
   let id = UUID()
   

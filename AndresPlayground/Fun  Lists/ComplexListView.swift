@@ -18,13 +18,18 @@ struct ComplexListView: View {
           ForEach(foods) { food in
             FoodCustomCell(food: food)
           }
+        } header: {
+          Text("healthy")
         }
+        .headerProminence(.increased)
         
         Section {
-          ForEach(unhealthFoods) { food in
-            FoodCustomCell(food: food)
+          DisclosureGroup("unhealthy") {
+            ForEach(unhealthFoods) { food in
+              FoodCustomCell(food: food)
+            }
           }
-        }
+        } 
         
         Button {
           let newFood = Food(name: "new", icon: "\(foods.count)", isFavorite: false)
