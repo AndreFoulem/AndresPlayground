@@ -16,6 +16,7 @@
 		902465562A043D4200D523EE /* FoodListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465552A043D4200D523EE /* FoodListScreen.swift */; };
 		902465582A0548C200D523EE /* ComplexListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465572A0548C200D523EE /* ComplexListView.swift */; };
 		9024655A2A05BCD800D523EE /* FileItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465592A05BCD800D523EE /* FileItemModel.swift */; };
+		9024655C2A05BEE300D523EE /* HierarchicalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024655B2A05BEE300D523EE /* HierarchicalList.swift */; };
 		90AEA7342A0051790093163F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA7332A0051790093163F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		902465552A043D4200D523EE /* FoodListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListScreen.swift; sourceTree = "<group>"; };
 		902465572A0548C200D523EE /* ComplexListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexListView.swift; sourceTree = "<group>"; };
 		902465592A05BCD800D523EE /* FileItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItemModel.swift; sourceTree = "<group>"; };
+		9024655B2A05BEE300D523EE /* HierarchicalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalList.swift; sourceTree = "<group>"; };
 		90AEA73129FF1D170093163F /* test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.geojson; sourceTree = "<group>"; };
 		90AEA7332A0051790093163F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 				9024654F2A04387F00D523EE /* SettingsFormScreen.swift */,
 				902465552A043D4200D523EE /* FoodListScreen.swift */,
 				902465572A0548C200D523EE /* ComplexListView.swift */,
+				9024655B2A05BEE300D523EE /* HierarchicalList.swift */,
 				902465512A043C0C00D523EE /* Data */,
 			);
 			path = "Fun  Lists";
@@ -201,6 +204,7 @@
 				902465562A043D4200D523EE /* FoodListScreen.swift in Sources */,
 				9024655A2A05BCD800D523EE /* FileItemModel.swift in Sources */,
 				902465582A0548C200D523EE /* ComplexListView.swift in Sources */,
+				9024655C2A05BEE300D523EE /* HierarchicalList.swift in Sources */,
 				90AEA7342A0051790093163F /* SettingsView.swift in Sources */,
 				902465532A043C1800D523EE /* Food.swift in Sources */,
 				9015D8E429EB4625007D6F62 /* LazyVGrid_Main.swift in Sources */,
