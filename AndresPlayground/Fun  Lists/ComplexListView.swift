@@ -14,15 +14,18 @@ struct ComplexListView: View {
   
     var body: some View {
       List {
-        ForEach(foods) { food in
-          FoodCustomCell(food: food)
+        Section {
+          ForEach(foods) { food in
+            FoodCustomCell(food: food)
+          }
         }
         
-        Text("___")
-        
-        ForEach(unhealthFoods) { food in
-          FoodCustomCell(food: food)
+        Section {
+          ForEach(unhealthFoods) { food in
+            FoodCustomCell(food: food)
+          }
         }
+        
         Button {
           let newFood = Food(name: "new", icon: "\(foods.count)", isFavorite: false)
           
@@ -43,6 +46,8 @@ struct FoodCustomCell: View {
     HStack {
       Text(food.icon)
       Text(food.name)
+      
+      Image(systemName: food.isFavorite ? "heart.fill" : "heart")
     }
   }
 }
