@@ -14,9 +14,37 @@ struct ComplexListView: View {
   
     var body: some View {
       List {
+        ForEach(foods) { food in
+          FoodCustomCell(food: food)
+        }
         
+        Text("")
+        
+        ForEach(unhealthFoods) { food in
+          FoodCustomCell(food: food)
+        }
+        Button {
+          let newFood = Food(name: "new", icon: "\(foods.count)", isFavorite: false)
+          
+          withAnimation {
+            foods.append(newFood)
+          }
+        } label: {
+          Label("Add", systemImage: "plus")
+        }
       }
+      
     }
+}
+
+struct FoodCustomCell: View {
+  let food: Food
+  var body: some View {
+    HStack {
+      Text(food.icon)
+      Text(food.name)
+    }
+  }
 }
 
 struct ComplexListView_Previews: PreviewProvider {
