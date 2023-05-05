@@ -15,6 +15,7 @@
 		902465532A043C1800D523EE /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465522A043C1800D523EE /* Food.swift */; };
 		902465562A043D4200D523EE /* FoodListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465552A043D4200D523EE /* FoodListScreen.swift */; };
 		902465582A0548C200D523EE /* ComplexListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465572A0548C200D523EE /* ComplexListView.swift */; };
+		9024655A2A05BCD800D523EE /* FileItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465592A05BCD800D523EE /* FileItemModel.swift */; };
 		90AEA7342A0051790093163F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA7332A0051790093163F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		902465522A043C1800D523EE /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		902465552A043D4200D523EE /* FoodListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListScreen.swift; sourceTree = "<group>"; };
 		902465572A0548C200D523EE /* ComplexListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexListView.swift; sourceTree = "<group>"; };
+		902465592A05BCD800D523EE /* FileItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItemModel.swift; sourceTree = "<group>"; };
 		90AEA73129FF1D170093163F /* test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.geojson; sourceTree = "<group>"; };
 		90AEA7332A0051790093163F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				902465522A043C1800D523EE /* Food.swift */,
+				902465592A05BCD800D523EE /* FileItemModel.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				902465502A04387F00D523EE /* SettingsFormScreen.swift in Sources */,
 				902465562A043D4200D523EE /* FoodListScreen.swift in Sources */,
+				9024655A2A05BCD800D523EE /* FileItemModel.swift in Sources */,
 				902465582A0548C200D523EE /* ComplexListView.swift in Sources */,
 				90AEA7342A0051790093163F /* SettingsView.swift in Sources */,
 				902465532A043C1800D523EE /* Food.swift in Sources */,
