@@ -36,7 +36,6 @@
 		9024655B2A05BEE300D523EE /* HierarchicalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalList.swift; sourceTree = "<group>"; };
 		9024655D2A05C50700D523EE /* SingleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelection.swift; sourceTree = "<group>"; };
 		902465612A05C52C00D523EE /* MultipleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelection.swift; sourceTree = "<group>"; };
-		90AEA73129FF1D170093163F /* test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.geojson; sourceTree = "<group>"; };
 		90AEA7332A0051790093163F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,10 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				9015D8D429EB4609007D6F62 /* AndresPlaygroundApp.swift */,
-				90568C1C29F20FB70095EB4D /* PaulMoonshot */,
-				9015D8E229EB460F007D6F62 /* LazyVGrid */,
-				90AEA73029FF17C50093163F /* Codable */,
-				90AEA7322A004E6C0093163F /* Fun  Lists */,
+				908362DC2A06A4E90015A7FA /* UIKitToSwiftUI */,
+				908362DB2A06A4E00015A7FA /* SwiftUIElements */,
 				9015D8D829EB460A007D6F62 /* Assets.xcassets */,
 				9015D8DA29EB460A007D6F62 /* Preview Content */,
 			);
@@ -109,21 +106,38 @@
 		90568C1C29F20FB70095EB4D /* PaulMoonshot */ = {
 			isa = PBXGroup;
 			children = (
+				90AEA7322A004E6C0093163F /* Fun  Lists */,
+				9015D8E229EB460F007D6F62 /* LazyVGrid */,
 			);
 			path = PaulMoonshot;
 			sourceTree = "<group>";
 		};
-		90AEA73029FF17C50093163F /* Codable */ = {
+		908362DA2A06A4D20015A7FA /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				90AEA73129FF1D170093163F /* test.geojson */,
 			);
-			path = Codable;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		908362DB2A06A4E00015A7FA /* SwiftUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				90568C1C29F20FB70095EB4D /* PaulMoonshot */,
+			);
+			path = SwiftUIElements;
+			sourceTree = "<group>";
+		};
+		908362DC2A06A4E90015A7FA /* UIKitToSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKitToSwiftUI;
 			sourceTree = "<group>";
 		};
 		90AEA7322A004E6C0093163F /* Fun  Lists */ = {
 			isa = PBXGroup;
 			children = (
+				908362DA2A06A4D20015A7FA /* New Group */,
 				90AEA7332A0051790093163F /* SettingsView.swift */,
 				9024654F2A04387F00D523EE /* SettingsFormScreen.swift */,
 				902465552A043D4200D523EE /* FoodListScreen.swift */,
