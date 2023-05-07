@@ -71,6 +71,8 @@
 			children = (
 				9015D8D429EB4609007D6F62 /* AndresPlaygroundApp.swift */,
 				908362DC2A06A4E90015A7FA /* UIKitToSwiftUI */,
+				908362DD2A06A5570015A7FA /* PaulHudson */,
+				90E598A62A08352E00FF2DCF /* SwiftThinking_Advanced */,
 				908362DB2A06A4E00015A7FA /* SwiftUIElements */,
 				9015D8D829EB460A007D6F62 /* Assets.xcassets */,
 				9015D8DA29EB460A007D6F62 /* Preview Content */,
@@ -106,22 +108,15 @@
 		90568C1C29F20FB70095EB4D /* PaulMoonshot */ = {
 			isa = PBXGroup;
 			children = (
-				90AEA7322A004E6C0093163F /* Fun  Lists */,
-				9015D8E229EB460F007D6F62 /* LazyVGrid */,
 			);
 			path = PaulMoonshot;
-			sourceTree = "<group>";
-		};
-		908362DA2A06A4D20015A7FA /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		908362DB2A06A4E00015A7FA /* SwiftUIElements */ = {
 			isa = PBXGroup;
 			children = (
+				9015D8E229EB460F007D6F62 /* LazyVGrid */,
+				90AEA7322A004E6C0093163F /* Fun  Lists */,
 				90568C1C29F20FB70095EB4D /* PaulMoonshot */,
 			);
 			path = SwiftUIElements;
@@ -134,10 +129,16 @@
 			path = UIKitToSwiftUI;
 			sourceTree = "<group>";
 		};
+		908362DD2A06A5570015A7FA /* PaulHudson */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PaulHudson;
+			sourceTree = "<group>";
+		};
 		90AEA7322A004E6C0093163F /* Fun  Lists */ = {
 			isa = PBXGroup;
 			children = (
-				908362DA2A06A4D20015A7FA /* New Group */,
 				90AEA7332A0051790093163F /* SettingsView.swift */,
 				9024654F2A04387F00D523EE /* SettingsFormScreen.swift */,
 				902465552A043D4200D523EE /* FoodListScreen.swift */,
@@ -148,6 +149,21 @@
 				902465512A043C0C00D523EE /* Data */,
 			);
 			path = "Fun  Lists";
+			sourceTree = "<group>";
+		};
+		90E598A62A08352E00FF2DCF /* SwiftThinking_Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				90E598A72A08355400FF2DCF /* protocols */,
+			);
+			path = SwiftThinking_Advanced;
+			sourceTree = "<group>";
+		};
+		90E598A72A08355400FF2DCF /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
