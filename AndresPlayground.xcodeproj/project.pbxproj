@@ -20,6 +20,7 @@
 		9024655E2A05C50700D523EE /* SingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024655D2A05C50700D523EE /* SingleSelection.swift */; };
 		902465622A05C52C00D523EE /* MultipleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465612A05C52C00D523EE /* MultipleSelection.swift */; };
 		90AEA7342A0051790093163F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA7332A0051790093163F /* SettingsView.swift */; };
+		90E598AA2A0836E400FF2DCF /* ProtocolMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E598A92A0836E400FF2DCF /* ProtocolMainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		9024655D2A05C50700D523EE /* SingleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelection.swift; sourceTree = "<group>"; };
 		902465612A05C52C00D523EE /* MultipleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelection.swift; sourceTree = "<group>"; };
 		90AEA7332A0051790093163F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		90E598A92A0836E400FF2DCF /* ProtocolMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolMainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		90E598A72A08355400FF2DCF /* protocols */ = {
 			isa = PBXGroup;
 			children = (
+				90E598A92A0836E400FF2DCF /* ProtocolMainScreen.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			files = (
 				902465502A04387F00D523EE /* SettingsFormScreen.swift in Sources */,
 				902465562A043D4200D523EE /* FoodListScreen.swift in Sources */,
+				90E598AA2A0836E400FF2DCF /* ProtocolMainScreen.swift in Sources */,
 				9024655E2A05C50700D523EE /* SingleSelection.swift in Sources */,
 				9024655A2A05BCD800D523EE /* FileItemModel.swift in Sources */,
 				902465582A0548C200D523EE /* ComplexListView.swift in Sources */,
