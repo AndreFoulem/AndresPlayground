@@ -18,7 +18,17 @@ struct ProtocolMainScreen: View {
     let colorTheme: DefaultColorTheme = DefaultColorTheme()
   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      ZStack {
+        colorTheme.tertiary
+          .ignoresSafeArea()
+        
+        Text("Protocols are awesome")
+          .font(.headline)
+          .foregroundColor(colorTheme.secondary)
+          .padding()
+          .background(colorTheme.primary)
+          .cornerRadius(10)
+      }
     }
 }
 
