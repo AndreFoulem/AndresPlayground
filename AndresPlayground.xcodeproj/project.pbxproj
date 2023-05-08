@@ -156,6 +156,7 @@
 		90E598A62A08352E00FF2DCF /* SwiftThinking_Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				90E598AB2A092ACB00FF2DCF /* dependency injection */,
 				90E598A72A08355400FF2DCF /* protocols */,
 			);
 			path = SwiftThinking_Advanced;
@@ -167,6 +168,13 @@
 				90E598A92A0836E400FF2DCF /* ProtocolMainScreen.swift */,
 			);
 			path = protocols;
+			sourceTree = "<group>";
+		};
+		90E598AB2A092ACB00FF2DCF /* dependency injection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "dependency injection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
