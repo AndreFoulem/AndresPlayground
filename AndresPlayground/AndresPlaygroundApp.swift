@@ -11,7 +11,7 @@ import SwiftUI
 struct AndresPlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            LazyVGrid_Main()
+            DependencyInjectionScreen()
         }
     }
 }

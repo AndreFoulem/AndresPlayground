@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-struct PostModel: Codable {
+struct PostModel: Identifiable, Codable {
   let userId: Int
   let id: Int
   let title: String
@@ -34,18 +34,36 @@ class DependencyInjectionScreenVM: ObservableObject {
   
   
   @Published var dataArray: [PostModel] = []
+  var cancellables = Set<AnyCancellable>()
   
-  init() {}
+  init() {
+    loadPoasts()
+  }
   
-  private func loadPoasts() {}
+  private func loadPoasts() {
+    ProductionDataService.shared.getData()
+      .sink { _ in
+        
+      } receiveValue: { [weak self] returnedPosts in
+        self?.dataArray = returnedPosts
+      }
+      .store(in: &cancellables)
+
+  }
 }
 
 
 struct DependencyInjectionScreen: View {
-    @State private var vm = DependencyInjectionScreenVM()
+    @StateObject private var vm = DependencyInjectionScreenVM()
   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      ScrollView {
+        VStack {
+          ForEach(vm.dataArray) { post in
+            Text(post.title)
+          }
+        }
+      }
     }
 }
 
