@@ -16,7 +16,6 @@ struct PostModel: Identifiable, Codable {
 }
 
 class ProductionDataService {
-  static let shared = ProductionDataService()
   
   let url: URL = URL(string: "https://jsonplaceholder.typicode.com/posts")!
   
