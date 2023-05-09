@@ -19,6 +19,7 @@
 		9024655C2A05BEE300D523EE /* HierarchicalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024655B2A05BEE300D523EE /* HierarchicalList.swift */; };
 		9024655E2A05C50700D523EE /* SingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024655D2A05C50700D523EE /* SingleSelection.swift */; };
 		902465622A05C52C00D523EE /* MultipleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902465612A05C52C00D523EE /* MultipleSelection.swift */; };
+		903FF50F2A0AFE31008BA787 /* DependencyInjectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FF50E2A0AFE31008BA787 /* DependencyInjectionScreen.swift */; };
 		90AEA7342A0051790093163F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA7332A0051790093163F /* SettingsView.swift */; };
 		90E598AA2A0836E400FF2DCF /* ProtocolMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E598A92A0836E400FF2DCF /* ProtocolMainScreen.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		9024655B2A05BEE300D523EE /* HierarchicalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalList.swift; sourceTree = "<group>"; };
 		9024655D2A05C50700D523EE /* SingleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelection.swift; sourceTree = "<group>"; };
 		902465612A05C52C00D523EE /* MultipleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelection.swift; sourceTree = "<group>"; };
+		903FF50E2A0AFE31008BA787 /* DependencyInjectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionScreen.swift; sourceTree = "<group>"; };
 		90AEA7332A0051790093163F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		90E598A92A0836E400FF2DCF /* ProtocolMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolMainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +175,7 @@
 		90E598AB2A092ACB00FF2DCF /* dependency injection */ = {
 			isa = PBXGroup;
 			children = (
+				903FF50E2A0AFE31008BA787 /* DependencyInjectionScreen.swift */,
 			);
 			path = "dependency injection";
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				9024655A2A05BCD800D523EE /* FileItemModel.swift in Sources */,
 				902465582A0548C200D523EE /* ComplexListView.swift in Sources */,
 				902465622A05C52C00D523EE /* MultipleSelection.swift in Sources */,
+				903FF50F2A0AFE31008BA787 /* DependencyInjectionScreen.swift in Sources */,
 				9024655C2A05BEE300D523EE /* HierarchicalList.swift in Sources */,
 				90AEA7342A0051790093163F /* SettingsView.swift in Sources */,
 				902465532A043C1800D523EE /* Food.swift in Sources */,
