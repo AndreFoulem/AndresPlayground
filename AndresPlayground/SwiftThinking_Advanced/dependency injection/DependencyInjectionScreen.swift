@@ -6,17 +6,23 @@
 //
 
 import SwiftUI
+import Combine
 
-struct PostModel {
-  
+struct PostModel: Codable {
+  let userId: Int
+  let id: Int
+  let title: String
+  let body: String
 }
 
 class ProductionDataService {
   let url: URL = URL(string: "https://jsonplaceholder.typicode.com/posts")!
   
   func getData() {
-    
+    URLSession.shared.dataTaskPublisher(for: url)
+      .map({ $0.data })
   }
+  
 }
 
 class DependencyInjectionScreenVM: ObservableObject {
