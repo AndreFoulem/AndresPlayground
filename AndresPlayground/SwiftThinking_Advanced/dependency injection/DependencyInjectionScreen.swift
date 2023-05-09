@@ -16,6 +16,8 @@ struct PostModel: Codable {
 }
 
 class ProductionDataService {
+  static let shared = ProductionDataService()
+  
   let url: URL = URL(string: "https://jsonplaceholder.typicode.com/posts")!
   
   func getData() -> AnyPublisher<[PostModel], Error> {
@@ -29,6 +31,8 @@ class ProductionDataService {
 }
 
 class DependencyInjectionScreenVM: ObservableObject {
+  
+  
   @Published var dataArray: [PostModel] = []
   
   init() {}
