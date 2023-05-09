@@ -18,9 +18,12 @@ struct PostModel: Codable {
 class ProductionDataService {
   let url: URL = URL(string: "https://jsonplaceholder.typicode.com/posts")!
   
-  func getData() {
+  func getData() -> AnyPublisher<[PostModel], Error> {
     URLSession.shared.dataTaskPublisher(for: url)
       .map({ $0.data })
+      .decode(type: [PostModel].self, decoder: JSONDecoder())
+      .receive(on: DispatchQueue.main)
+      .eraseToAnyPublisher()
   }
   
 }
