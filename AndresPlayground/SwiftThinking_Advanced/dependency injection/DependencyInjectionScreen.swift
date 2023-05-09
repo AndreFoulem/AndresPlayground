@@ -12,7 +12,11 @@ struct PostModel {
 }
 
 class ProductionDataService {
+  let url: URL = URL(string: "https://jsonplaceholder.typicode.com/posts")!
   
+  func getData() {
+    
+  }
 }
 
 class DependencyInjectionScreenVM: ObservableObject {
